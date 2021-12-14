@@ -1,0 +1,27 @@
+;_source.event.original.evtCategory;_source.event.original.evtType;_source.event.original.evtOperation;_source.event.original.evtResultCode;_source.event.attributes.category;_source.event.attributes.eventtype;_source.event.attributes.error;_source.event.attributes.action;_source.event.attributes.event_action
+0;2;1;0;0x0;Authentication;Directory password change;0x00000000;empty;Directory password change : empty
+1;2;4113;0;0x0;Authentication;Authentication successful;0x00000000;empty;Authentication successful : empty
+2;2;4114;0;0x82002002;Authentication;Authentication failed;Authentication error: user authentication refused.;empty;Authentication failed : empty
+3;2;8205;0;0x0;Authentication;Session terminated;0x00000000;empty;Session terminated : empty
+4;3;1;0;0x0;SSO;Use of account password for SSO;0x00000000;empty;Use of account password for SSO : empty
+5;3;2;0;0x0;SSO;Use of primary password for SSO;0x00000000;empty;Use of primary password for SSO : empty
+6;3;4;0;0x0;SSO;Account access denied;0x00000000;empty;Account access denied : empty
+7;6;100;0;0x0;Policy Manager;Connection;Success;empty;Connection : empty
+8;6;109;0;0x0;Policy Manager;Disconnection;Success;empty;Disconnection : empty
+9;8;2;1;0x0;Request Manager;Process instance;Success;Start;Process instance : Start
+10;8;2;2;0x0;Request Manager;Process instance;Success;End;Process instance : End
+11;8;2;9;0x0;Request Manager;Process instance;Success;Cancel;Process instance : Cancel
+12;8;3;1;0x0;Request Manager;Activity;Success;Start;Activity : Start
+13;8;3;2;0x0;Request Manager;Activity;Success;End;Activity : End
+14;8;3;7;0x0;Request Manager;Activity;Success;Assign;Activity : Assign
+15;8;5;0;0x0;Request Manager;Connect;Success;empty;Connect : empty
+16;8;6;0;0x0;Request Manager;Disconnect;Success;empty;Disconnect : empty
+17;8;7;11;0x0;Request Manager;Right assignment;Success;Right selection;Right assignment : Right selection
+18;8;7;18;0x88000003;Request Manager;Right assignment;The action was refused.;SOD validation;Right assignment : SOD validation
+19;8;7;20;0x0;Request Manager;Right assignment;Success;Hierarchical validation;Right assignment : Hierarchical validation
+20;8;7;21;0x0;Request Manager;Right assignment;Success;Functional validation;Right assignment : Functional validation
+21;8;13;12;0x0;Request Manager;New user - Notification;Success;Validation;New user - Notification : Validation
+22;8;14;12;0x0;Request Manager;User modification - Notification;Success;Validation;User modification - Notification : Validation
+23;8;14;19;0x0;Request Manager;User modification - Notification;Success;Transition validation;User modification - Notification : Transition validation
+24;8;22;15;0x0;Request Manager;User accounts passwords modification;Success;Modification;User accounts passwords modification : Modification
+25;8;32;14;0x0;Request Manager;Manual report generation;Success;Execution report;Manual report generation : Execution report
